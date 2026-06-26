@@ -39,7 +39,7 @@ const MyPokemon = () => {
 	}
 
 	return (
-		<div className="flex-1 flex flex-col overflow-hidden p-4 gap-4 bg-background">
+		<div className="flex-1 flex flex-col overflow-hidden p-4 gap-4 bg-background dark:bg-cyan-800">
 			<div className="font-arcade text-sm uppercase font-bold text-center text-black dark:text-white mb-2">
 				My Pokemon ({list.length})
 			</div>
@@ -60,3 +60,4 @@ const MyPokemon = () => {
 };
 
 export default MyPokemon;
+
